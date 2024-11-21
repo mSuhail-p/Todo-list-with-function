@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: #72787f;
+  font-family: sans-serif;
+}
+h4 {
+  font-size: 28px;
+  margin:0;
+  
+
+}
+h6{
+  margin: 0;
+  color: red;
+}
+
+.todo-container {
+  width: 400px;
+  background-color: #fff;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.innerMain {
+  display: flex;
+  width: 286px;
+}
+.input-section input {
+  width: 286px;
+  height: 24px;
+  border-radius: 10px;
+  justify-content: center;
+  margin-top: 5px;
+  /* cursor: none; */
+}
+.input-section input::placeholder {
+  padding-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding-left: 40px;
+  text-align: start;
+  width: 286px;
+}
+
+ul li {
+  padding-top: 6px;
+  display: flex;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+}
+ul li i {
+  text-align: right;
+  flex: 1;
+  cursor: pointer;
+}
+ul li button {
+  border-radius: 4px;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+}
+ul li input {
+  border-radius: 5px;
+  border-color: black;
+}
+/* #noTaskLabel{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+} */
